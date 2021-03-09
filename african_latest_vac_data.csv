@@ -1,0 +1,11 @@
+location,iso_code,date,total_vaccinations,people_vaccinated,people_fully_vaccinated,daily_vaccinations_raw,daily_vaccinations,total_vaccinations_per_hundred,people_vaccinated_per_hundred,people_fully_vaccinated_per_hundred,daily_vaccinations_per_million,latest_day
+Algeria,DZA,2021-02-19,75000,NA,NA,NA,3748,0.17,NA,NA,85,2021-02-19
+Egypt,EGY,2021-01-30,1315,NA,NA,NA,219,0,NA,NA,2,2021-01-30
+France,FRA,2021-03-07,5807779,3881967,1925812,114805,178131,8.56,5.72,2.84,2626,2021-03-07
+Mauritius,MUS,2021-02-17,3843,3843,NA,NA,227,0.3,0.3,NA,178,2021-02-17
+Morocco,MAR,2021-03-08,4613292,3961941,651351,NA,115949,12.5,10.73,1.76,3141,2021-03-08
+Rwanda,RWA,2021-03-06,158898,158898,NA,83842,15552,1.23,1.23,NA,1201,2021-03-06
+Senegal,SEN,2021-03-08,66768,66768,NA,1731,4496,0.4,0.4,NA,269,2021-03-08
+Seychelles,SYC,2021-03-05,81715,57095,24620,NA,635,83.09,58.06,25.04,6457,2021-03-05
+South Africa,ZAF,2021-03-08,101841,101841,101841,268,3840,0.17,0.17,0.17,65,2021-03-08
+Zimbabwe,ZWE,2021-03-08,35518,35518,NA,3278,2009,0.24,0.24,NA,135,2021-03-08
