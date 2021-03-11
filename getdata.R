@@ -26,6 +26,13 @@ african_vac_data <- subset(vac_data, (`iso_code` %in% iso3s))
 
 african_latest_vac_data <- subset(latest_vac_data, (`iso_code` %in% iso3s))
 
+## merge latest data with population data--------
+pop <- read_csv("./pop.csv")
+african_latest_vac_data <- merge(african_latest_vac_data, pop, by="iso_code")
+
+## add column percent pop fully vaccinated-----
+african_latest_vac_data$percent_pop_fully_vac <- 100 * (african_latest_vac_data$people_fully_vaccinated / african_latest_vac_data$popData2019)
+
 write_csv(african_vac_data, "african_vac_data.csv")
 
 write_csv(african_latest_vac_data, "african_latest_vac_data.csv")
